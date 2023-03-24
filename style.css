@@ -36,7 +36,8 @@
     min-width: 50%;
     height: 1.5vw;
     font-size: 5.5em;
-    text-align: left;
+    
+    text-align: center;
     line-height:  1em;
     animation: move 10s linear 1s infinite;
     z-index: 99;
@@ -82,8 +83,8 @@
   }
   .sidebar{
     position: fixed;
-    top: 38vh;
-    left: 100vh;
+    top: 50%;
+    left: 70%;
     mix-blend-mode: multiply;
   }
   
@@ -96,18 +97,18 @@
 .title{
     font-size: 0.8062146892655368vw;
     position: relative;
-    left: 5vh;
+    left: 10vh;
   
 }
 .project{
     font-size: 1.6em;
     position: relative;
-    left: 5vh;
+    left: 10vh;
 }
 .description{
     margin: 1em;
     position: relative;
-    left: 5vh;
+    left: 10vh;
 }
 
 p{
