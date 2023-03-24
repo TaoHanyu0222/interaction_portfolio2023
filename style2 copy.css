@@ -84,7 +84,9 @@ body {
     position: fixed;
     top: 35vh;
     left: 120vh;
-    mix-blend-mode:multiply;
+    filter: grayscale(1);
+    
+    mix-blend-mode:color-burn;
 
   }
   
