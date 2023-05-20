@@ -65,7 +65,33 @@
     min-width: 100%;
     line-height:  1.5em;
 } */
-  
+.tips-wrap {
+  display: flex;
+  width: 3000px;
+  align-items: center;
+  height: 100%;
+}
+.bottom {
+  position: relative;
+  height: 120px;
+  width: 100vw;
+  overflow: hidden;
+  font-size: 50px;
+}
+.bottom .tips p {
+  line-height: 120px;
+}
+@keyframes move {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-573px, 0);
+  }
+}
+.bottom .tips-wrap {
+  animation: move 5s linear 1s infinite;
+}
   .header {
     min-width: 50%;
     height: 2vw;
